@@ -1,0 +1,258 @@
+<!DOCTYPE = html>
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <title> Галерея </title>
+
+   <style type="text/css">
+     header{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            background-color: Tomato;
+            width: 100%;
+            height: auto;
+            color: white;
+            font-size: 20px;
+        }
+
+      footer{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            background-color: Tomato;
+            width: 100%;
+            height: auto;
+            color: white;
+            align-items: bottom;
+        }
+        ul{
+            margin: 0;
+            padding: 0;
+        }
+       
+       ul li {
+            list-style: none;
+       }
+
+       a{
+        text-decoration: none;
+       }
+
+        nav{
+        background-color: #9F1B1B;
+        min-height: 53px; 
+       }
+
+       nav li{
+        float: left;
+        width: 100px;
+       }
+
+       nav a{
+        display: block;
+        line-height: 3.3em;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+       }
+
+       nav li a:hover{
+        color: lightblue;
+        background-color: #D46A6A;
+       }
+
+       .button{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #9F1B1B;
+        width: 130px;
+        height: 30px;
+        align-items: center;
+        color: white;
+        margin: 5px;
+        padding: 5px;
+        }
+
+        nav .button a:hover{
+            color: lightblue;
+            background-color: #D46A6A;
+        }
+
+        .text{
+        font-style: italic;
+        font-size: 20px;
+        text-align: center;
+        width: 100%;
+        margin: 10px;
+       }
+
+       .box{
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
+            background-color: silver;
+            width: 28%;
+            height: 600px;
+            align-items: center;
+            margin: 10px;
+            border: 1px solid black;
+            padding: 15px;
+            word-wrap: break-word;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        .empty_gap{
+            display: flex;
+            justify-content: flex-start;
+            background-color: LemonChiffon;
+            width: 28%;
+            height: 600px;
+            margin: 5px;
+            padding: 5px;
+        }
+
+        .box img{
+        max-width: 100%;
+        height: 300px;
+       }
+
+       .container{
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            padding: 10px;
+
+    </style>
+</head>
+
+<body bgcolor="lemonchiffon">
+    <header>
+      <h1>Галерея інших міст Європи</h1>
+    </header>
+
+    <nav>
+    <ul>
+        <li><a href="index.html">Головна</a></li>
+        <li><a href="gallery.html">Галерея</a></li>
+        <li><a href="about_me.html">Про нас</a></li>  
+    </ul>    
+    </nav>
+
+	
+    
+    	<div class="container">
+            <div class="box">
+            <a href="https://uk.wikipedia.org/wiki/%D0%A1%D1%82%D0%BE%D0%BA%D0%B3%D0%BE%D0%BB%D1%8C%D0%BC" target="_blank" title="Перейти до Стокгольм">
+            <img src="стокгольм.jpg">
+            <p class="text"><b>Стокгольм</b></p>
+            </a>
+            <p>Стокгольм — це витончене поєднання чотирнадцяти островів, з’єднаних мостами у єдиний простір, де морська вода заходить прямо в серце міста. Тут панує особливий баланс між величчю королівської історії Гамла Стану та прогресивним дизайном сучасних районів. Місто вражає своєю чистотою, екологічністю та унікальним метро, що нагадує підземне царство в скелях. Це місце, де життя тече у ритмі «лагам» — без поспіху, з повагою до природи та неодмінною перервою на каву, що створює атмосферу затишного північного спокою.</p>
+            <p><b>Більше інформації можна дізнатися натиснувши на назву міста або на його фотографію</b></p>
+            </div>
+       
+
+     	
+            <div class="box">
+            <a href="https://uk.wikipedia.org/wiki/%D0%9C%D0%B0%D0%B4%D1%80%D0%B8%D0%B4" target="_blank" title=" Перейти до Мадрид">
+            <img src="мадрид.jpg">
+            <p class="text"><b>Мадрид</b></p>
+            </a>
+            <p>Мадрид — це місто енергії та світла, де широкі проспекти з величними будівлями епохи Габсбургів межують із зеленими оазами на кшталт парку Ретіро. Він вражає своїм королівським розмахом, мистецьким духом музею Прадо та пристрасним нічним життям, що затихає лише на світанку.</p>
+            <p><b>Більше інформації можна дізнатися натиснувши на назву міста або на його фотографію</b></p>
+            </div>
+     	
+
+     	
+            <div class="box">
+            <a href="https://uk.wikipedia.org/wiki/%D0%91%D1%80%D1%8E%D1%81%D1%81%D0%B5%D0%BB%D1%8C" target="_blank" title="Перейти до Брюссель">
+            <img src="брюссель.jpg">
+            <p class="text"><b>Брюссель</b></p>
+            </a>
+            <p>Брюссель є справжнім серцем Європи, де готична площа Гран-Плас сусідить із футуристичним Атоніумом та скляними кварталами єврочиновників. Місто пахне шоколадом і вафлями, поєднуючи в собі витончену архітектуру, бельгійський сюрреалізм та атмосферу світової дипломатії.</p>
+            <p><b>Більше інформації можна дізнатися натиснувши на назву міста або на його фотографію</b></p>
+            </div>
+     	</div>
+    
+    
+    
+    	<div class="container">
+            <div class="box">
+            <a href="https://uk.wikipedia.org/wiki/%D0%91%D1%83%D0%B4%D0%B0%D0%BF%D0%B5%D1%88%D1%82" target="_blank" title="Перейти до Будапешт">
+            <img src="будапешт.jpg">
+            <p class="text"><b>Будапешт</b></p>
+            </a>
+            <p>Будапешт величаво розкинувся на берегах Дунаю, розділений на горбисту Буду з рибальським бастіоном та динамічний Пешт із монументальним Парламентом. Це місто термальних купалень, величних мостів та унікальних «руїн-барів», де історія імперії переплітається з сучасною культурою.</p>
+            <p><b>Більше інформації можна дізнатися натиснувши на назву міста або на його фотографію</b></p>
+            </div>
+    	
+
+    	    <div class="empty_gap"></div>
+
+    	
+            <div class="box">
+            <a href="https://uk.wikipedia.org/wiki/%D0%91%D1%83%D1%85%D0%B0%D1%80%D0%B5%D1%81%D1%82" target="_blank" title="Перейти до Бухарест">
+            <img src="бухарест.jpg">
+            <p class="text"><b>Бухарест</b></p>
+            </a>
+            <p>Бухарест часто називають «Маленьким Парижем» Сходу через його елегантну забудову міжвоєнного періоду та власну Тріумфальну арку. Місто контрастів вражає гігантським Палацом Парламенту та прихованими православними церквами, зберігаючи автентичний балканський колорит серед сучасних ритмів.</p>
+            <p><b>Більше інформації можна дізнатися натиснувши на назву міста або на його фотографію</b></p>
+            </div>
+    	</div>
+	
+
+	    <div class="container">
+            <div class="box">
+            <a href="https://uk.wikipedia.org/wiki/%D0%92%D1%96%D0%B4%D0%B5%D0%BD%D1%8C" target="_blank" title="Перейти до Відень">
+            <img src="відень.jpg">
+            <p class="text"><b>Відень</b></p>
+            </a>
+            <p>Відень — це втілення аристократизму, де класична музика, розкішні імперські палаци та культура старовинних кав’ярень створюють відчуття вічної елегантності. Місто надихає своїм порядком, витонченим мистецтвом Клімта та атмосферою колишньої столиці великої монархії.</p>
+            <p><b>Більше інформації можна дізнатися натиснувши на назву міста або на його фотографію</b></p>
+            </div>
+		
+
+		
+            <div class="box">
+            <a href="https://uk.wikipedia.org/wiki/%D0%A0%D0%B8%D0%BC" target="_blank" title="Перейти до Рим">
+            <img src="рим.jpg">
+            <p class="text"><b>Рим</b></p>
+            </a>
+            <p>Рим — «Вічне місто», де кожен камінь дихає тисячолітньою історією, від Колізею до величного собору Святого Петра. Тут хаотичний італійський темперамент гармонійно поєднується з античними руїнами, бароковими фонтанами та незрівнянним ароматом свіжої пасти й еспресо.</p>
+            <p><b>Більше інформації можна дізнатися натиснувши на назву міста або на його фотографію</b></p>
+            </div>
+		
+
+		
+            <div class="box">
+            <a href="https://uk.wikipedia.org/wiki/%D0%9A%D0%B8%D1%97%D0%B2" target="_blank" title="Перейти до Київ">
+            <img src="київ.jpg">
+            <p class="text"><b>Київ</b></p>
+            </a>
+            <p>Київ — місто незламного духу та золотих куполів, що височіють над могутнім Дніпром серед розлогих каштанів. Це поєднання прадавньої княжої історії, величі Софії Київської та сучасної динаміки мегаполіса, який вражає своєю гостинністю, силою волі та неймовірним поєднанням затишних схилів і модернової архітектури.</p>
+            <p><b>Більше інформації можна дізнатися натиснувши на назву міста або на його фотографію</b></p>
+           </div>
+		</div>
+	
+
+    <nav class="button">
+
+    <div class="button">
+        <a href="index.html">Назад до головної</a>
+    </div>
+
+    </nav>
+
+  <footer>
+    <p> Ліцей "Львівський" </p>
+    <p> Створено учнем 10-Б класу Шаварським Назарієм </p>
+    <p> @ 2026 </p>
+  </footer>
+	</body>
+</html>
