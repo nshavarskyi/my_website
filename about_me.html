@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="utf-8">
+    <title> Про нас </title>
+
+    <style type="text/css">
+        body{
+            margin: 0px;
+            padding: 0px;
+            background-color: LemonChiffon;
+        }
+
+        header{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            background-color: Tomato;
+            width: 100%;
+            height: auto;
+            color: white;
+            font-size: 20px;
+        }
+
+        footer{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            background-color: Tomato;
+            width: 100%;
+            height: auto;
+            color: white;
+        }
+
+        ul{
+            margin: 0;
+            padding: 0;
+        }
+       
+       ul li {
+            list-style: none;
+       }
+
+       a{
+        text-decoration: none;
+       }
+
+       nav{
+        background-color: #9F1B1B;
+        min-height: 53px; 
+       }
+
+       nav li{
+        float: left;
+        width: 100px;
+       }
+
+       nav a{
+        display: block;
+        line-height: 3.3em;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+       }
+
+       nav li a:hover{
+        color: lightblue;
+        background-color: #D46A6A;
+       }
+
+       .container{
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            padding: 10px;
+        }
+
+        .box{
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
+            background-color: silver;
+            width: 40%;
+            height:auto;
+            align-items: center;
+            margin: 10px;
+            border: 1px solid black;
+            padding: 15px;
+            word-wrap: break-word;
+            border-radius: 5px;
+        }
+
+        .form_box{
+        	display: flex;
+        	justify-content: center;
+        	flex-direction: column;
+        	background-color: silver;
+        	width: 40%;
+        	height: auto;
+        	align-items: left;
+        	margin: 5px;
+        	padding: 15px;
+            border-radius: 5px;
+            border: 1px solid;
+		}
+
+        .text{
+        font-style: italic;
+        font-size: 20px;
+        text-align: left;
+        width: 100%;
+        margin: 10px;
+       }
+
+       img{
+        max-width: 100%;
+        height: 400px;
+       }
+
+       .button{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #9F1B1B;
+        width: 130px;
+        height: 30px;
+        align-items: center;
+        color: white;
+        margin: 5px;
+        padding: 5px;
+        }
+
+        nav .button a:hover{
+            color: lightblue;
+        background-color: #D46A6A;
+        }
+
+        form{
+        	width: 70%;
+        }
+
+        label{
+        	margin-bottom: 5px;
+        }
+
+        input{
+        	width: 100%;
+        	padding: 8px;
+        	margin-bottom: 10px;
+        	border: 1px solid #ccc
+        	border-radius: 5px;
+        }
+
+        button{
+            width: 100%;
+        	padding: 10px;
+        	background: #9F1B1B;
+        	border: none;
+        	border-radius: 5px;
+        	color: white;
+        	font-size: 16px;
+        	cursor: pointer;  
+        }
+
+        button:hover{
+            background: #D46A6A;
+            color: lightblue;
+        }
+
+        .donate_box{
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
+            background-color: silver;
+            width: 40%;
+            height: auto;
+            align-items: center;
+            margin: 10px;
+            border: 1px solid black;
+            padding: 15px;
+            word-wrap: break-word;
+            border-radius: 5px;
+            margin-top: 200px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1> Про нас </h1>
+    </header>
+
+    <nav>
+    <ul>
+        <li><a href="index.html">Головна</a></li>
+        <li><a href="gallery.html">Галерея</a></li>
+        <li><a href="about_me.html">Про нас</a></li>    
+    </ul>    
+    </nav>
+
+    <div class="container">
+        <div class="box">
+            <img src="me.jpg">
+            <h1> Про мене </h1>
+            <ul class="text">
+                <li>Ім'я і прізвище: Назарій Шаварський</li>
+                <li>Вік: 16 років(скоро 17 років)</li>
+                <li>Соціальний статус: Все ще учень 10 класу</li>
+                <li>Місце проживання: Львів</li>
+                <li>Навчальний заклад: ліцей "Львівський"</li>
+                <li>Розробнийк сайту: Я</li>
+                <li>Моя мрія: Навчитися програмувати</li>
+            </ul>
+            
+        </div>
+
+        <div class="box">
+            <img src="me_working.jpg">
+            <h1> Інформація про сайт</h1>
+            <ul class="text">
+                <li>Тема сайту: Опис міст Європи</li>
+                <li>Скільки я працював на сайтом: ~ 1-2 тижні</li>
+                <li>Хто надихав: Придумав на ходу тему під час уроку</li>
+                <li>Для чого я це роблю: Хочу щоб якнайбільше людей дізналося про красу міст в Європі(ну і отримати хорошу оцінку за роботу)</li>
+                <li>Чи мені сподобався такий проєкт: Загалом так</li>
+                <li>Чи я б продовжив таке робити в майбутньому: Ні, я страшенно лінивий</li>
+            </ul>
+        </div>
+
+        
+    </div>
+
+    <div class="container">
+	   <div class="form_box">
+            <h1>Залишайся на зв'язку!</h1>
+            <p class="text">
+            Знайшов помилку? Хочеш щось порадити чи просто поспілкуватися про подорожі? Заповнюй форму нижче — я завжди радий фідбеку від живих людей!
+            </p>
+		  <h2>Зворотний зв'язок</h2>
+		  <form>
+
+			 <label for="name_surname">Ім'я і прізвище:</label>
+			 <input type="text" id="name_surname" placeholder="Ваше ім'я і прізвище">
+
+			 <label for="email">Електроння пошта:</label>
+			 <input type="email" id="email" placeholder="example@gmail.com">
+
+			 <label for="message">Повідомлення:</label>
+                <textarea id="message" placeholder="Введіть ваше повідомлення тут..." rows="4" cols="100"></textarea>
+
+			 <button type="submit">Відправити</button>
+
+		  </form>
+	   </div>
+
+        
+        <div class="donate_box">
+            <p class="text">
+                Якщо хочете підтримати мою роботу, ви можете кинути мені зайву копійчину за цим посиланням:
+            </p>
+            <p><u>
+                https://www.privat24.ua/send/jnxwg
+            </p></u>
+        </div>
+        
+    </div>
+    
+    <nav class="button">
+
+    <div class="button">
+        <a href="index.html">Назад до головної</a>
+    </div>
+
+    </nav>
+
+    <footer>
+        <p> Ліцей "Львівський" </p>
+        <p> Створено учнем 10-Б класу Шаварським Назарієм </p>
+        <p> @ 2026 </p>
+    </footer>
+
+</body>
+</html>
