@@ -103,6 +103,7 @@
             flex-direction: column;
             background-color: silver;
             width: 28%;
+		    height: auto;
             align-items: center;
             margin: 10px;
             border: 1px solid black;
@@ -137,8 +138,12 @@
 
 	   @media (max-width: 1080px){
             .box{
-                height: auto;
+				width: 90%;
             }
+
+		    .empty_gap{
+				display: none;
+			}
 
             .box img{
                 height: 150px;
